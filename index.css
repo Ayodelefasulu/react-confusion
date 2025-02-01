@@ -1,0 +1,165 @@
+/* .header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: beige;
+  padding: 15px 20px;
+} */
+
+/* .navbar-logo {
+  width: 10px;
+  height: 20px;
+  object-fit: contain;
+} */
+
+/* .navbar-brand {
+  display: flex;
+  align-items: center;
+} */
+
+/* Ms Space main@5x 1 */
+
+.msslogo {
+  position: relative;
+  width: 100px;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+  background: url(./msspace.png);
+}
+
+/* Company Card Styling */
+.company-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(12, 1, 1, 0);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Logo Styling */
+.logo img {
+  width: 70px;
+  height: 70px;
+}
+
+/* Company Info */
+.company-info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.company-info h3 {
+  font-size: 16px;
+}
+
+.company-info p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Representative Details */
+.representative {
+  text-align: center;
+  font-size: 14px;
+}
+
+.representative p span {
+  color: #3675a9;
+  font-weight: bold;
+}
+
+/* Selected Card Text Styling
+.selected .representative p span {
+  color: white;
+} */
+
+.auditor-head {
+  text-align: center;
+  background-color: #6ebfdf;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: -15px;
+}
+
+/* Table Styling */
+.audit-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Table Rows and Cells */
+.audit-table th,
+.audit-table td {
+  padding: 35px;
+  border: 4px solid #ddd;
+  border-top: 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Header Row */
+.header-row-th,
+.header-row-td {
+  background-color: whitesmoke;
+  text-align: left;
+  font-size: 18px;
+}
+
+.header-row2-th {
+  /* width: ; */
+  background-color: whitesmoke;
+  text-align: left;
+  font-size: 18px;
+  /* border-left: ; */
+}
+
+.th2 {
+  width: 20%;
+}
+
+.header-row2 td {
+  background-color: whitesmoke;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Section Headers */
+.section-header th {
+  background-color: #d3e3f2;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Footer Row */
+.footer-row th {
+  background-color: #b6cfe0;
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ba-button {
+  width: 200px;
+  color: white;
+  background: rgb(28, 28, 61);
+  border-radius: 0;
+}
+
+.foot {
+  font-size: 18px;
+}
+
+/* .audit-table-td td {
+  padding: px;
+  border: px solid #ddd;
+  border-top: 0;
+  text-align: left;
+  font-size: 18px;
+} */
